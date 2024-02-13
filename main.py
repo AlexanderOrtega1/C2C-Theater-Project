@@ -8,7 +8,9 @@ for row in t.theater_seats:  # goes through the set of lists
   
 print()
 
+# # #This bit does the same but with the second list
 for row in t.theater_seats2: 
   for seat in row:
     print(seat, end='\t')
   print('\n')
+
